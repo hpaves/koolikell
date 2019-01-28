@@ -1,4 +1,4 @@
-# KOOLIKELL
+﻿# KOOLIKELL
 
 * Koolikella käivitab cron
 * Koolikella muusikafailid asuvad ~/koolikell/mp3/20xx kaustas (vali õige aasta)
