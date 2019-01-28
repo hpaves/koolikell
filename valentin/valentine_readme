@@ -1,0 +1,15 @@
+# valentinipäeva eri; iga vahetund 10 minutit muusikat, söögivahetund 20 min
+# muusikafaili pikkus vastavalt 10/20 min; failinimed 1.mp3, 2.mp3, jne
+# kommenteeri tavaline koolikell cronist välja
+# lähtesta queuecounter fail, kirjutates sinna numbri 1
+# sisesta allolevasse croni õige nädalapäev
+# ära unusta pärast valentiniopäeva lõppu tavalist kella tagasi panna
+14 8 * * 3 /bin/bash ~/koolikell/valentin/playvalentine.sh
+00 9 * * 3 /bin/bash ~/koolikell/valentin/playvalentine.sh
+55 9 * * 3 /bin/bash ~/koolikell/valentin/playvalentine.sh
+50 10 * * 3 /bin/bash ~/koolikell/valentin/playvalentine.sh
+45 11 * * 3 /bin/bash ~/koolikell/valentin/playvalentine.sh
+55 11 * * 3 /bin/bash ~/koolikell/valentin/playvalentine.sh
+50 12 * * 3 /bin/bash ~/koolikell/valentin/playvalentine.sh
+45 13 * * 3 /bin/bash ~/koolikell/valentin/playvalentine.sh
+40 14 * * 3 /bin/bash ~/koolikell/valentin/playvalentine.sh
