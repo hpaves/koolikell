@@ -1,4 +1,4 @@
-﻿# KOOLIKELL
+# KOOLIKELL
 
 * Koolikella käivitab cron
 * Koolikella muusikafailid asuvad ~/koolikell/mp3/20xx kaustas (vali õige aasta)
@@ -13,3 +13,4 @@ vahetunnikell = ~20 sek pikk lõik loost
 märgusõna = mingi märgusõna mis aitaks loo faili nime järgi ära tunda; ära täpitähti igaks juhuks kasuta
 
 volumelevel faili sisse käib vajadusel heli võimendus detsibellides; üle 20 läheb suht käest ära
+
