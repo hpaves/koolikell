@@ -1,0 +1,46 @@
+# Juhend
+
+Igal nädalal saab kellaks olla vaid üks lugu.
+
+Koolikella faile on alati kolm.
+
+Failinimede formaat on: <nädala nr>_<pikk/tunnikell/vahetunnikell>_<märgusõna>.mp3
+
+Näiteks:
+02_pikk_abba_happy_new_year.mp3
+02_tunnikell_abba_happy_new_year.mp3
+02_vahetunnikell_abba_happy_new_year.mp3
+
+Nädala number on selle kalendrinädala number, millal see kell mängima peab.
+
+Kui antud nädalal kella pole (vaheaeg), tuleb see nädal lihtsalt vahele jätta.
+
+## Kella tüübid on:
+
+* pikk
+* tunnikell
+* vahetunnikell
+
+NB! Kõik on väikesed tähed! 
+
+NB! Nädala numbri ja kella tüübi vahel on _ mitte tühik!
+
+NB! Failid tuleb paigutada vastava aastanumbriga kausta sisse!
+
+pikk = terve lugu täies pikkuses
+tunnikell = 60s pikk lõik
+vahetunnikell = 20s pikk lõik
+
+Olenevalt kuidas lugu kulgeb, olen vahel pannud mõni sekund pikema kella.
+
+## Tavakell
+Kaustas "tavakell" on vana koolikella failid juhuks, kui muusikaline kell pole sobilik.
+
+Need tuleks lihtsalt õige aasta kausta kopeerida ning nädala number õigeks muuta.
+
+Kui koolikell on antud nädalal juba olemas, siis tuleb nende nimed ära muuta.
+
+Kõige lihtsam on mängimise tõkestamiseks faili nime ette panna _
+
+Näiteks:
+_02_tunnikell_abba_happy_new_year.mp3
