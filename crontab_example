@@ -1,0 +1,41 @@
+# tunnikell on täpselt 60s pikk; vahetunnikell on ~20s pikk
+# kõik tunnikellad algavad üks minut varem, et lugu lõppeks tunni alguseks
+14 8 * * 1 /bin/bash ~/koolikell/tunnikell.sh
+# 8:25 kõlab tunnikella asemel lühike kell, sest infominutid võivad venida
+25 8 * * 1 /bin/bash ~/koolikell/vahetunnikell.sh
+10 9 * * 1 /bin/bash ~/koolikell/vahetunnikell.sh
+19 9 * * 1 /bin/bash ~/koolikell/tunnikell.sh
+05 10 * * 1 /bin/bash ~/koolikell/vahetunnikell.sh
+14 10 * * 1 /bin/bash ~/koolikell/tunnikell.sh
+00 11 * * 1 /bin/bash ~/koolikell/vahetunnikell.sh
+09 11 * * 1 /bin/bash ~/koolikell/tunnikell.sh
+55 11 * * 1 /bin/bash ~/koolikell/vahetunnikell.sh
+14 12 * * 1 /bin/bash ~/koolikell/tunnikell.sh
+00 13 * * 1 /bin/bash ~/koolikell/vahetunnikell.sh
+09 13 * * 1 /bin/bash ~/koolikell/tunnikell.sh
+55 13 * * 1 /bin/bash ~/koolikell/vahetunnikell.sh
+04 14 * * 1 /bin/bash ~/koolikell/tunnikell.sh
+# ootekellaks mängitakse lühike kell:
+50 14 * * 1 /bin/bash ~/koolikell/vahetunnikell.sh
+# enne bussile minekut mängib lugu täispikalt:
+20 15 * * 1 /bin/bash ~/koolikell/pikk.sh
+
+14 8 * * 2-5 /bin/bash ~/koolikell/tunnikell.sh
+00 9 * * 2-5 /bin/bash ~/koolikell/vahetunnikell.sh
+09 9 * * 2-5 /bin/bash ~/koolikell/tunnikell.sh
+55 9 * * 2-5 /bin/bash ~/koolikell/vahetunnikell.sh
+04 10 * * 2-5 /bin/bash ~/koolikell/tunnikell.sh
+50 10 * * 2-5 /bin/bash ~/koolikell/vahetunnikell.sh
+59 10 * * 2-5 /bin/bash ~/koolikell/tunnikell.sh
+45 11 * * 2-5 /bin/bash ~/koolikell/vahetunnikell.sh
+04 12 * * 2-5 /bin/bash ~/koolikell/tunnikell.sh
+50 12 * * 2-5 /bin/bash ~/koolikell/vahetunnikell.sh
+59 12 * * 2-5 /bin/bash ~/koolikell/tunnikell.sh
+45 13 * * 2-5 /bin/bash ~/koolikell/vahetunnikell.sh
+54 13 * * 2-5 /bin/bash ~/koolikell/tunnikell.sh
+40 14 * * 2-5 /bin/bash ~/koolikell/vahetunnikell.sh
+# ootekellaks mängitakse lühike kell:
+50 14 * * 2-5 /bin/bash ~/koolikell/vahetunnikell.sh
+# enne bussile minekut mängib lugu täispikalt:
+20 15 * * 2-5 /bin/bash ~/koolikell/pikk.sh
+
